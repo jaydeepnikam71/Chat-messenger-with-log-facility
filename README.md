@@ -1,7 +1,13 @@
-Chat messenger with log facility :
-  Technology: Java Programming
-  Description:
+Project Name :- Chat messenger with log facility
+
+Technology: Java Programming
+
+Description: 
+
       • This project provides the chatting facility for pear to pear communication.
+      
       • We use java socket programming to perform the text based chatting.
+      
       • We also maintain the log which contains all the chatting details with the periodic fashion.
+      
       • This application is platform & architecture independent.
