@@ -5,7 +5,7 @@ class Server
 {
     public static void main(String Arg[]) throws Exception
     {
-        System.out.println("Server of Marvellous Chat messanger is running...");
+        System.out.println("Server of JD Chat messanger is running...");
         ServerSocket ssobj = new ServerSocket(2100);
         System.out.println("Server is in the listening mode at port no : 2100");
 
@@ -17,7 +17,7 @@ class Server
         BufferedReader br1 = new BufferedReader(new InputStreamReader(sobj.getInputStream()));
         BufferedReader br2 = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Marvellous Chat Messanger started...");
+        System.out.println("JD Chat Messanger started...");
 
         String str1, str2;
 
@@ -28,7 +28,7 @@ class Server
             str2 = br2.readLine();
             ps.println(str2);
         }
-        System.out.println("Thank you for using the chat messanger..");
+        System.out.println("Thank you for using the JD chat messanger..");
         ssobj.close();
         sobj.close();
         ps.close();
